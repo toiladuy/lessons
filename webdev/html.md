@@ -1,15 +1,15 @@
 # HTML
 
 ## Nội dung
-1. [Cấu trúc 1 trang HTML chuẩn](#cau-truc-html)
-2. [Cấu tạo của 1 thẻ (element)](#cau-tao-the)
-3. [Các thẻ HTML thường gặp](#cac-the-thuong-gap)
-4. [Các thuộc tính thường gặp](#cac-thuoc-tinh-thuong-gap)
-5. [Đường dẫn (Path)](#paths)
-6. [HTML Forms](#forms)
-7. [Các nội dung nâng cao có thể tìm hiểu thêm](#cac-noi-dung-nang-cao)
+1. [Cấu trúc 1 trang HTML chuẩn](#cấu-trúc-1-trang-html-chuẩn)
+2. [Cấu tạo của 1 thẻ (element)](#cấu-tạo-của-1-thẻ-element)
+3. [Các thẻ HTML thường gặp](#các-thẻ-thường-gặp)
+4. [Các thuộc tính thường gặp](#các-thuộc-tính-thường-gặp)
+5. [Đường dẫn (Path)](#đường-dẫn-đến-nội-dung-path)
+6. [HTML Forms](#html-forms)
+7. [Các nội dung nâng cao có thể tìm hiểu thêm](#các-nội-dung-nâng-cao-có-thể-tìm-hiểu-thêm)
 
-### Cấu trúc 1 trang HTML chuẩn: {#cau-truc-html}
+### Cấu trúc 1 trang HTML chuẩn
 - Khai báo `<!DOCTYPE html>`
 - Thẻ `<html></html>`
 - Thẻ `<head></head>`
@@ -30,7 +30,7 @@
 </html>
 ```
 
-### Cấu tạo của 1 thẻ (element): {#cau-tao-the}
+### Cấu tạo của 1 thẻ (element)
 Thẻ HTML bất kỳ bao gồm 3 phần:
 
 1. Tên thẻ (element). Ví dụ: `<p>`, `<h1>`
@@ -50,7 +50,7 @@ Ví dụ:
 ```
 
 
-### Các thẻ thường gặp: {#cac-the-thuong-gap}
+### Các thẻ thường gặp
 
 ```html
 <!-- Thẻ Heading: từ <h1> đến <h6> -->
@@ -148,7 +148,7 @@ Câu này lúc hiển thị sẽ vẫn giữ khoảng trắng và xuống hàng.
 ```
 
 
-### Các thuộc tính thường gặp: {#cac-thuoc-tinh-thuong-gap}
+### Các thuộc tính thường gặp
 
 ```html
 
@@ -170,7 +170,7 @@ Câu này lúc hiển thị sẽ vẫn giữ khoảng trắng và xuống hàng.
 </div>
 ```
 
-### Đường dẫn đến nội dung (Path): {#paths}
+### Đường dẫn đến nội dung (Path)
 Có 2 loại đường dẫn (path):
 1. Absolute path (Đường dẫn tuyệt đối):
     - Là đường dẫn đầy đủ đến tài nguyên (trang web, hình, tập tin).
@@ -251,7 +251,7 @@ Nội dung file `src/admin/admin.html` như sau:
 </html>
 ```
 
-### HTML Forms: {#forms}
+### HTML Forms
 Cấu tạo của form gồm:
 - Các thẻ nhập liệu (Input elements)
 - Các thẻ hiển thị nội dung (thẻ bất kỳ)
@@ -288,7 +288,7 @@ Cấu tạo của form gồm:
 </form>
 ```
 
-### Các nội dung nâng cao có thể tìm hiểu thêm: {#cac-noi-dung-nang-cao}
+### Các nội dung nâng cao có thể tìm hiểu thêm
 - HTML responsive với:
     + Viewport meta trong thẻ Head
     + Sử dụng Viewport width & height (vh, vw)
